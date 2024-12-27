@@ -1,44 +1,38 @@
 # FSL.Next Introduction
 
-FSL ( Future Starlight Launcher ).Next is a remastered version of FSL.RH.
+FSL (Future Starlight Launcher).Next is a reset version of FSL.RH, featuring a more aesthetically pleasing UI, user-friendly operations, additional features, and an improved user experience.
 
-This version has a more beautiful UI, more user-friendly operations and more features, a better use of the experience.
+## Interface Optimization
 
-## Interface Optimize
+In addition to employing a more modern UI, it has moved away from the designer, with controls written entirely in code by hand. This ensures that there will be no misalignment even at maximum size. Therefore, it is now usable when maximized!
 
-Except of using modern UI, it also stopped using designer.
+## Configuration Files
 
-This way, there will be no mismatches during maximization. So, maximize is now able.
+FSL.Next introduces a brand-new configuration file system, so you no longer need to reset your settings every time you start up!
 
-## Config Files
+The configuration files are stored in the config folder under the FSL root directory, containing two files: accounts.fsl and settings.fsl (accounts and settings). If you need to transfer data, simply copy these two files.
 
-FSL.Next now imports new config files system.
+You can change settings and click save, while accounts are saved automatically. You can even choose not to save account information!
 
-Config files are archived in "config" folder in FSL's directionry. Includes accounts.fsl and settings.fsl ,
+Regardless, FSL will load your configuration file upon startup, unless it does not exist or has been corrupted.
 
-If you want to move data, just copy these files.
+### Essential Multi-Account Management for Launchers
 
-You can click save button during you've changed settings, and there's auto-saving in accounts page.
+You can now set up multiple accounts.
 
-FSL Will always load your config files when launcher start, except if it's missing or broken.
+You can add accounts by selecting the verification method and then performing some simple operations.
 
-### Multi-Accounts Manage
+- **Offline Authentication:** Enter the player's name in the input box below and click add.
+- **Microsoft Authentication:** Click the button to open a webpage for verification. After the verification process is complete, the launcher will retrieve your account information and add it automatically. Unless, of course, you have not purchased Minecraft...
 
-Now you can manage and create more accounts, but third-party authenticate is now disabled.
+Both verification methods support not saving information, which means they will only be saved for the current session and will not be loaded after a restart.
 
-You can create account by select a way of authenticate, then do some simple operation to create a account.
+If you are using on a public computer/directory, it is recommended not to save information.
 
-- **Offline Authentication:** Type username by the following textbox, then click "create account".
-- **Microsoft Authentication:** Click the following button and link your Microsoft account in the browser. If you completed authentication, launcher will process your Minecraft profile, then add to list automaticly. Except of you don't bought Minecraft...
+**Please always support the legitimate version of Minecraft!!!**
 
-All of these ways supports "Don't save information". This information will only save in this time, and will be deleted when FSL restarted.
+### Diversified and Well-Organized Settings Interface
 
-If you are using FSL in a public computer or directiory, we advice you don't save information.
+The settings interface is now categorized by tabs, which can be divided into tabs such as Launch, Downloads, Personalization, etc., and changes can be made after opening.
 
-**Please always support genuine Minecraft!!!**
-
-### Better Settings Page
-
-Settings page is now tabview. Includes Launch,Download,Personelize.
-
-It's not messy now, and it also can be saved.
+The settings are no longer disorganized as before, and they can now be saved.
