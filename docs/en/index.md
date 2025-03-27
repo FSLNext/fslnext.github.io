@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/FutureStudios-FSC/FSL-Launcher
+    - theme: alt
+      text: For MOJANG MCJE API APPLICATION
+      link: /en/More/Application
   
   image:
     src: /logo.png
